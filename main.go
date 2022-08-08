@@ -8,7 +8,9 @@ import (
 	"fundamental/ifcontrol"
 	"fundamental/map_"
 	"fundamental/mapslice"
+	"fundamental/method"
 	"fundamental/perulanganfor"
+	"fundamental/pointer"
 	"fundamental/slice"
 	"fundamental/struct_"
 	"fundamental/switchcontrol"
@@ -62,5 +64,11 @@ func main() {
 	struct_.StructUser()
 	struct_.PrintUserParam()
 	struct_.StructUserGroup()
+
+	// Jalankan method
+	method.PrintMethod()
+
+	// Jalankan pointer
+	pointer.PrintPointer()
 }
-// 3:04:10
+// 3:26:36
